@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "map4dsdk/map4dsdk.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [MFServices provideAccessKey: @"98fd21346d83bee24dc734231f7609c9"] ;
     return YES;
 }
 
