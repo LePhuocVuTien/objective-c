@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046193B822B8950B00578616 /* UIView+Draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 046193B722B8950B00578616 /* UIView+Draw2D.m */; };
 		049CC37222B7300C00B4782B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CC37122B7300C00B4782B /* AppDelegate.m */; };
 		049CC37522B7300C00B4782B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049CC37422B7300C00B4782B /* ViewController.m */; };
 		049CC37822B7300C00B4782B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049CC37622B7300C00B4782B /* Main.storyboard */; };
@@ -22,8 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046193B622B8950B00578616 /* UIView+Draw2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw2D.h"; sourceTree = "<group>"; };
-		046193B722B8950B00578616 /* UIView+Draw2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw2D.m"; sourceTree = "<group>"; };
 		049CC36D22B7300C00B4782B /* objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049CC37022B7300C00B4782B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049CC37122B7300C00B4782B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,8 +87,6 @@
 				049CC37B22B7300D00B4782B /* LaunchScreen.storyboard */,
 				049CC37E22B7300D00B4782B /* Info.plist */,
 				049CC37F22B7300D00B4782B /* main.m */,
-				046193B622B8950B00578616 /* UIView+Draw2D.h */,
-				046193B722B8950B00578616 /* UIView+Draw2D.m */,
 			);
 			path = "objective-C";
 			sourceTree = "<group>";
@@ -250,7 +245,6 @@
 			files = (
 				049CC37522B7300C00B4782B /* ViewController.m in Sources */,
 				04B0D13922B7957F0020D11A /* UIButton+Extension.m in Sources */,
-				046193B822B8950B00578616 /* UIView+Draw2D.m in Sources */,
 				049CC38022B7300D00B4782B /* main.m in Sources */,
 				04B0D13C22B799A70020D11A /* UIColor+Extension.m in Sources */,
 				04B0D13322B778EE0020D11A /* UIView+Extension.m in Sources */,

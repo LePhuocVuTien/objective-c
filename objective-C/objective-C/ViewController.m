@@ -37,8 +37,6 @@
     [_avataImage setBoder: _avataImage color: [UIColor whiteColor] size: 0.0 cornerRadius:cornerAvataImage];
     [_address setText: @"3km, 강남 구신시 555-111 구신시 구신시 구신시 구신시 구신시"];
     
-    NSLog(@"MM");
-    // Do any additional setup after loading the view.
 }
 
 - (void) viewDidAppear:(BOOL)animated{
